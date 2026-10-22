@@ -1,0 +1,15 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+        real altura, pesobom
+        escreva("digite a sua altura:")
+        leia(altura)
+        pesobom=(72.7*altura)-58
+        escreva(" o peso bom é:",pesobom,"kg")
+    }
+
+		
+	}
+}

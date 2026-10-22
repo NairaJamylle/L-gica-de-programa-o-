@@ -1,0 +1,19 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro temperatura 
+	
+		escreva("informe a temperatura:")
+        leia(temperatura)
+        se(temperatura<10){
+            escreva("Você vai congelar")
+        }senao se(temperatura<20){
+            escreva("está frio")
+        }senao{
+            escreva("Está agradável")
+        }
+    }
+}
+	}
+}

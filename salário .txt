@@ -1,0 +1,12 @@
+programa 
+{
+	funcao inicio()
+	{
+
+ real salario,novosalario 
+ escreva("digite o salário:")
+ leia(salario)
+   novosalario=salario+(salario*15/100)
+   escreva("novo salário:",novosalario)
+}
+}

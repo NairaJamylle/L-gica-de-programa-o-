@@ -1,0 +1,18 @@
+programa
+{
+	funcao inicio ()
+	{
+		real valor, rendimento, valorfinal
+
+        escreva(" digite o valor do depósito:")
+        leia(valor)
+
+        rendimento = valor * 5 / 100
+        valorfinal = valor + rendimento
+
+        escreva("valor apos um mes:", valorfinal)
+    }
+}
+		
+	}
+}
