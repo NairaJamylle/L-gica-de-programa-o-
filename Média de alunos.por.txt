@@ -1,0 +1,46 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+	/*
+Escola: EEEP Otília Correia Saraiva
+Aluno(a): ____Naira Jamylle da Silva Mariano________________
+Professor(a): Willy____________________
+Data: __29__/__10__/___2026___
+Questão: 4
+*/
+
+
+        real nota, soma, media
+        inteiro i, quantidade
+
+        soma = 0
+        quantidade = 0
+
+        para (i = 1; i <= 8; i++) {
+            escreva("Digite a nota: ")
+            leia(nota)
+
+            soma = soma + nota
+
+            se (nota >= 6) {
+                quantidade = quantidade + 1
+            }
+        }
+
+        media = soma / 8
+
+        escreva("Media da turma: ", media, "\n")
+        escreva("Quantidade de estudantes com nota >= 6: ", quantidade, "\n")
+
+        se (media >= 6) {
+            escreva("Turma dentro da meta")
+        }
+        senao {
+            escreva("Turma abaixo da meta")
+        }
+    }
+}	
+	}
+}
