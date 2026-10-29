@@ -1,0 +1,25 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+		/*
+Escola: EEEP Otília Correia Saraiva
+Aluno(a): __Naira Jamylle da Silva Mariano__________________
+Professor(a): ____willy________________
+Data: _29___/_10___/___2026___
+Questão: 2
+*/
+        inteiro numero, i, resultado
+
+        escreva("Digite um número: ")
+        leia(numero)
+
+        para (i = 1; i <= 10; i++) {
+            resultado = numero * i
+            escreva(numero, " x ", i, " = ", resultado, "\n")
+        }
+    }
+}
+	}
+}
