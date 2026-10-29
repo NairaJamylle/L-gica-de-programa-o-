@@ -1,0 +1,49 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+		/*
+Escola: EEEP Otília Correia Saraiva
+Aluno(a): ___Naira Jamylle da Silva Mariano_________________
+Professor(a): ___willy _________________
+Data: _29___/_10___/___2026___
+Questão: 5
+*/
+
+
+        real temperatura, maior, menor
+        inteiro i, dias
+
+        dias = 0
+
+        para (i = 1; i <= 10; i++) {
+            escreva("Digite a temperatura: ")
+            leia(temperatura)
+
+            se (i == 1) {
+                maior = temperatura
+                menor = temperatura
+            }
+            senao {
+                se (temperatura > maior) {
+                    maior = temperatura
+                }
+
+                se (temperatura < menor) {
+                    menor = temperatura
+                }
+            }
+
+            se (temperatura > 32) {
+                dias = dias + 1
+            }
+        }
+
+        escreva("Maior: ", maior, "\n")
+        escreva("Menor: ", menor, "\n")
+        escreva("Dias acima de 32 graus: ", dias)
+    }
+}
+	}
+}
