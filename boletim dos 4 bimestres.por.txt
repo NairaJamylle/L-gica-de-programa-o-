@@ -1,0 +1,39 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+		/*
+Escola: EEEP Otília Correia Saraiva
+Aluno(a): _____Naira Jamylle da Silva Mariano_______________
+Professor(a): _willy___________________
+Data: __29__/__10__/_____2026_
+Questão: 6
+*/
+
+        real nota, soma, media, geral
+        inteiro aluno, bimestre
+
+        geral = 0
+
+        para (aluno = 1; aluno <= 5; aluno++) {
+            soma = 0
+
+            para (bimestre = 1; bimestre <= 4; bimestre++) {
+                escreva("Digite a nota: ")
+                leia(nota)
+
+                soma = soma + nota
+            }
+
+            media = soma / 4
+            geral = geral + media
+
+            escreva("Media do aluno: ", media, "\n")
+        }
+
+        escreva("Media geral: ", geral / 5)
+    }
+}
+	}
+}
